@@ -1,5 +1,5 @@
 @echo off
-rem Rebuilds the addon from favourites.txt and publishes it to GitHub Pages.
+rem Rebuilds the addon from favourites.txt and publishes it to GitHub.
 cd /d "%~dp0"
 python -I build.py || (pause & exit /b 1)
 git add -A
