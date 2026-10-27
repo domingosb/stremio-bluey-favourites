@@ -1,0 +1,18 @@
+{
+ "metas": [
+  {
+   "id": "blueyfavourites",
+   "type": "series",
+   "name": "Bluey: Favourites",
+   "poster": "https://images.metahub.space/poster/small/tt7678620/img",
+   "background": "https://images.metahub.space/background/medium/tt7678620/img",
+   "logo": "https://images.metahub.space/logo/medium/tt7678620/img",
+   "description": "My favourite Bluey episodes.",
+   "genres": [
+    "Animation",
+    "Short",
+    "Comedy"
+   ]
+  }
+ ]
+}

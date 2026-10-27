@@ -1,0 +1,23 @@
+# Bluey favourites, one episode title per line, in the order you want them.
+# If a title exists more than once, pin it with "| season:episode", e.g. "The Sign | 3:49".
+# After editing, run build.py and push (see README.md).
+Sleepytime
+Baby Race
+Camping
+Grannies
+Bike
+Fairytale
+Born Yesterday
+Rain
+The Sign | 3:49
+Flat Pack
+Takeaway
+Bin Night
+Hammerbarn
+Keepy Uppy
+Dance Mode
+Ghostbasket
+Cricket
+Surprise!
+Stickbird
+Duck Cake

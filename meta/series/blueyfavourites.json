@@ -1,0 +1,198 @@
+{
+ "meta": {
+  "id": "blueyfavourites",
+  "type": "series",
+  "name": "Bluey: Favourites",
+  "poster": "https://images.metahub.space/poster/small/tt7678620/img",
+  "background": "https://images.metahub.space/background/medium/tt7678620/img",
+  "logo": "https://images.metahub.space/logo/medium/tt7678620/img",
+  "description": "My favourite Bluey episodes.",
+  "genres": [
+   "Animation",
+   "Short",
+   "Comedy"
+  ],
+  "videos": [
+   {
+    "id": "tt7678620:2:26",
+    "title": "Sleepytime (S2E26)",
+    "season": 1,
+    "episode": 1,
+    "released": "2020-04-11T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/2/26/w780.jpg",
+    "overview": "Inside Bingo's dream, Bingo and Floppy have an intergalactic adventure, while the rest of her sleep-deprived family try to navigate Bingo's non-stop night-time bedhopping."
+   },
+   {
+    "id": "tt7678620:2:50",
+    "title": "Baby Race (S2E50)",
+    "season": 1,
+    "episode": 2,
+    "released": "2020-11-17T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/2/50/w780.jpg",
+    "overview": "Mum reminisces about Bluey and Judo as babies. Bluey learnt to roll over first, but Judo was the first to crawl, so then it became a race to see who was going to walk first!"
+   },
+   {
+    "id": "tt7678620:1:43",
+    "title": "Camping (S1E43)",
+    "season": 1,
+    "episode": 3,
+    "released": "2019-04-17T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/1/43/w780.jpg",
+    "overview": "While on a camping holiday, Bluey makes a new friend called Jean-Luc. Bluey may not understand him, but they find common language playing and hunting for a wild Daddy pig."
+   },
+   {
+    "id": "tt7678620:1:28",
+    "title": "Grannies (S1E28)",
+    "season": 1,
+    "episode": 4,
+    "released": "2019-04-02T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/1/28/w780.jpg",
+    "overview": "A game of \"Grannies\" is fun, until Bingo and Bluey can't agree on one simple question: Can Grannies dance? Now they need to video call Nana to get the answer."
+   },
+   {
+    "id": "tt7678620:1:11",
+    "title": "Bike (S1E11)",
+    "season": 1,
+    "episode": 5,
+    "released": "2018-10-11T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/1/11/w780.jpg",
+    "overview": "At the park, Bluey is struggling to learn how to ride her bike. But as she and Dad watch her friends determination with their own tasks, Bluey is inspired to give it another try."
+   },
+   {
+    "id": "tt7678620:3:26",
+    "title": "Fairytale (S3E26)",
+    "season": 1,
+    "episode": 6,
+    "released": "2021-12-16T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/3/26/w780.jpg",
+    "overview": "Dad tells Bluey and Bingo a real-life fairy tale about growing up in a wild place called the 80s, about a boy who was cursed when he was mean to his little brother."
+   },
+   {
+    "id": "tt7678620:3:6",
+    "title": "Born Yesterday (S3E6)",
+    "season": 1,
+    "episode": 7,
+    "released": "2021-11-26T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/3/6/w780.jpg",
+    "overview": "Dad pretends he was born yesterday. Bluey and Bingo have to guide him through his second day on Earth, especially when he discovers food is delicious and steals Lucky's Dad's pie."
+   },
+   {
+    "id": "tt7678620:3:18",
+    "title": "Rain (S3E18)",
+    "season": 1,
+    "episode": 8,
+    "released": "2021-12-08T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/3/18/w780.jpg",
+    "overview": "When a heavy summer rain thunders over the Heeler home, Bluey is determined to dam the water in the front yard, while Mum tries to stop her constantly tracking mud into the house."
+   },
+   {
+    "id": "tt7678620:3:49",
+    "title": "The Sign (S3E49)",
+    "season": 1,
+    "episode": 9,
+    "released": "2024-04-14T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/3/49/w780.jpg",
+    "overview": "The Heeler home is up for sale and Bluey’s not happy about it."
+   },
+   {
+    "id": "tt7678620:2:24",
+    "title": "Flat Pack (S2E24)",
+    "season": 1,
+    "episode": 10,
+    "released": "2020-04-09T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/2/24/w780.jpg",
+    "overview": "While Mum and Dad struggle to build new flat-pack furniture, Bluey and Bingo transform the empty boxes into their own new world."
+   },
+   {
+    "id": "tt7678620:1:14",
+    "title": "Takeaway (S1E14)",
+    "season": 1,
+    "episode": 11,
+    "released": "2018-10-14T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/1/14/w780.jpg",
+    "overview": "Forced to wait five minutes in front of a restaurant for their takeaway order, Bluey and Bingo become restless for entertainment, pushing the very limits of Dad's patience."
+   },
+   {
+    "id": "tt7678620:2:42",
+    "title": "Bin Night (S2E42)",
+    "season": 1,
+    "episode": 12,
+    "released": "2020-11-09T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/2/42/w780.jpg",
+    "overview": "Bluey, Bingo and Dad always take out the bins. Over a few weeks, Bingo tells Dad about a new kid at kindy who is mean to her and Mum offers some good advice."
+   },
+   {
+    "id": "tt7678620:2:2",
+    "title": "Hammerbarn (S2E2)",
+    "season": 1,
+    "episode": 13,
+    "released": "2020-03-18T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/2/2/w780.jpg",
+    "overview": "On a trip to Hammerbarn, Bluey and Bingo create their own mini-homes side-by-side in the trolley. But Bluey quickly gets jealous of her neighbour Bingo."
+   },
+   {
+    "id": "tt7678620:1:3",
+    "title": "Keepy Uppy (S1E3)",
+    "season": 1,
+    "episode": 14,
+    "released": "2018-10-03T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/1/3/w780.jpg",
+    "overview": "Bluey, Bingo and Mum are enjoying playing Keepy-Uppy around the house with their last balloon, when Dad joins in and the game becomes the ultimate test of skill."
+   },
+   {
+    "id": "tt7678620:2:1",
+    "title": "Dance Mode (S2E1)",
+    "season": 1,
+    "episode": 15,
+    "released": "2020-03-17T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/2/1/w780.jpg",
+    "overview": "After Dad eats her last chip, Bingo is given three chances to put Mum and Dad in 'Dance Mode' as payback. But the others can't resist taking Bingo's turns for her."
+   },
+   {
+    "id": "tt7678620:3:48",
+    "title": "Ghostbasket (S3E48)",
+    "season": 1,
+    "episode": 16,
+    "released": "2024-04-07T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/3/48/w780.jpg",
+    "overview": "Dad is pretending to be an estate agent selling the Grannies’ house to Mum. But Janet and Rita don’t want to move out!"
+   },
+   {
+    "id": "tt7678620:3:47",
+    "title": "Cricket (S3E47)",
+    "season": 1,
+    "episode": 17,
+    "released": "2023-06-11T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/3/47/w780.jpg",
+    "overview": "During a friendly game of neighbourhood cricket, the dads struggle to bowl Rusty out."
+   },
+   {
+    "id": "tt7678620:3:50",
+    "title": "Surprise! (S3E50)",
+    "season": 1,
+    "episode": 18,
+    "released": "2024-04-21T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/3/50/w780.jpg",
+    "overview": "Bluey and Bingo want Dad to play two different games, so Dad tries to play both at the same time."
+   },
+   {
+    "id": "tt7678620:3:41",
+    "title": "Stickbird (S3E41)",
+    "season": 1,
+    "episode": 19,
+    "released": "2023-04-30T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/3/41/w780.jpg",
+    "overview": "On a trip to the beach, Mum teaches Bluey to throw, while Bingo and Dad get creative with a funny shaped stick."
+   },
+   {
+    "id": "tt7678620:2:44",
+    "title": "Duck Cake (S2E44)",
+    "season": 1,
+    "episode": 20,
+    "released": "2020-11-11T08:00:00.000Z",
+    "thumbnail": "https://episodes.metahub.space/tt7678620/2/44/w780.jpg",
+    "overview": "Bluey wants to help Dad make Bingo's birthday cake, but first she must put away her toys. But nothing can tempt her to clean up, until Dad drops the cake."
+   }
+  ]
+ }
+}

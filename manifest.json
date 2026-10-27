@@ -1,0 +1,32 @@
+{
+ "id": "community.bluey.favourites",
+ "version": "1.0.0",
+ "name": "Bluey Favourites",
+ "description": "My favourite Bluey episodes.",
+ "logo": "https://images.metahub.space/logo/medium/tt7678620/img",
+ "resources": [
+  "catalog",
+  {
+   "name": "meta",
+   "types": [
+    "series"
+   ],
+   "idPrefixes": [
+    "blueyfavourites"
+   ]
+  }
+ ],
+ "types": [
+  "series"
+ ],
+ "idPrefixes": [
+  "blueyfavourites"
+ ],
+ "catalogs": [
+  {
+   "type": "series",
+   "id": "bluey-favourites",
+   "name": "Bluey Favourites"
+  }
+ ]
+}
