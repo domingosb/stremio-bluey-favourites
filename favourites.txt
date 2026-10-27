@@ -1,5 +1,4 @@
 # Managed from Home Assistant (to-do list "Bluey Favourites"). Edits here get overwritten.
-Duck Cake
 Sleepytime
 Baby Race
 Camping
@@ -19,3 +18,4 @@ Ghostbasket
 Cricket
 Surprise!
 Stickbird
+Duck Cake
