@@ -1,5 +1,5 @@
 # Managed from Home Assistant (to-do list "Bluey Favourites"). Edits here get overwritten.
 Sleepytime
-Rain
 Keepy Uppy
+Rain
 The Pool
