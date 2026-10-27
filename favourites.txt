@@ -1,21 +1,5 @@
 # Managed from Home Assistant (to-do list "Bluey Favourites"). Edits here get overwritten.
 Sleepytime
-Baby Race
-Camping
-Grannies
-Bike
-Fairytale
-Born Yesterday
 Rain
-The Sign
-Flat Pack
-Takeaway
-Bin Night
-Hammerbarn
 Keepy Uppy
-Dance Mode
-Ghostbasket
-Cricket
-Surprise!
-Stickbird
-Duck Cake
+Pull
