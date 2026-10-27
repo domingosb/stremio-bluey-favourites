@@ -1,6 +1,4 @@
-# Bluey favourites, one episode title per line, in the order you want them.
-# If a title exists more than once, pin it with "| season:episode", e.g. "The Sign | 3:49".
-# After editing, run build.py and push (see README.md).
+# Managed from Home Assistant (to-do list "Bluey Favourites"). Edits here get overwritten.
 Sleepytime
 Baby Race
 Camping
@@ -9,7 +7,7 @@ Bike
 Fairytale
 Born Yesterday
 Rain
-The Sign | 3:49
+The Sign
 Flat Pack
 Takeaway
 Bin Night
