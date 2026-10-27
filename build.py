@@ -5,11 +5,19 @@ Episode data comes from Cinemeta. Each episode keeps its real IMDb video id
 """
 import json
 import os
+import re
+import sys
 import urllib.request
 
 SHOW = 'tt7678620'
 META_ID = 'blueyfavourites'
 HERE = os.path.dirname(os.path.abspath(__file__))
+# --lenient: skip titles that don't match (listing them in unmatched.txt) instead of stopping
+LENIENT = '--lenient' in sys.argv
+
+
+def norm(s):
+    return re.sub(r'[^a-z0-9]', '', s.lower())
 
 
 def write(path, data):
@@ -33,13 +41,18 @@ url = f'https://v3-cinemeta.strem.io/meta/series/{SHOW}.json'
 show = json.load(urllib.request.urlopen(url, timeout=30))['meta']
 episodes = [v for v in show['videos'] if v.get('season')]  # skip specials (season 0)
 
-videos = []
+videos, unmatched = [], []
 for title, pin in read_favourites():
-    found = [v for v in episodes if (v.get('name') or v.get('title') or '').strip().lower() == title.lower()]
-    if pin:
-        found = [v for v in found if f"{v['season']}:{v['episode']}" == pin]
+    found = [v for v in episodes if norm(v.get('name') or v.get('title') or '') == norm(title)]
+    if pin:  # "3:49" or "S3E49"
+        m = re.fullmatch(r'[sS]?(\d+)[:eE](\d+)', pin)
+        found = [v for v in found if m and (v['season'], v['episode']) == (int(m[1]), int(m[2]))]
     if len(found) != 1:
-        raise SystemExit(f'"{title}": {len(found)} matches, pin it with "| season:episode"')
+        problem = f'"{title}": {"no episode with that title" if not found else "several episodes match, add | season:episode"}'
+        if not LENIENT:
+            raise SystemExit(problem)
+        unmatched.append(problem)
+        continue
     v = found[0]
     videos.append({
         'id': v['id'],
@@ -81,3 +94,8 @@ write(f'meta/series/{META_ID}.json', {'meta': meta})
 print(f'Built {len(videos)} episodes:')
 for v in videos:
     print(f"  {v['episode']:2}. {v['title']}")
+if LENIENT:
+    with open(os.path.join(HERE, 'unmatched.txt'), 'w', encoding='utf-8') as f:
+        f.write(''.join(u + '\n' for u in unmatched))
+for u in unmatched:
+    print('Skipped', u)
